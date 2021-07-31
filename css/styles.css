@@ -1,4 +1,4 @@
-  
+   
   
   
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
@@ -265,7 +265,7 @@ video{
 #imagen1{
     width:200px;
     height:200px;
-    background-image:url("imagenes/imagen1.jpg");
+   
     background-size: cover;
     float:left;
     margin-left:35px;
@@ -332,7 +332,13 @@ video{
     margin-top:20px;
     border-radius: 8px;
   }
-  #nota1{
+  .imagenes1{
+    width:230px;
+    height: 350px;
+    float:left;
+    text-align: center;
+  }
+#nota1{
     width:150px;
     height:100px;
     float:left;
@@ -343,22 +349,23 @@ video{
     width:150px;
     height:100px;
     float:left;
+    margin-left:55px;
     margin-top:10px;
-    margin-left:80px;
+    text-align:center;
   }
    #nota3{
     width:150px;
     height:100px;
     float:left;
     margin-top:10px;
-    margin-left:80px;
+    margin-left:60px;
   }
    #nota4{
     width:150px;
     height:100px;
     float:left;
     margin-top:10px;
-    margin-left:80px;
+    margin-left:60px;
   }
    #nota5{
     width:150px;
@@ -433,6 +440,7 @@ video{
   padding-bottom: 10px;
   
 }
+
 .letra-p{
   width:300px;
   margin:0 auto;
@@ -807,7 +815,32 @@ margin:0 auto;
   float:left;
   
 }
-
+#modulo{
+  display:block;
+  margin:0 auto;
+  width: 300px;
+}
+#datoAgenda{
+  display: block;
+  margin:0 auto;
+  width: 300px;
+}
+#importancia{
+  display: block;
+  margin: 0 auto;
+ width:307px;
+}
+#fecha{
+display: block;
+  margin: 0 auto;
+  width:302px;
+}
+#guardar{
+  margin:20px 10px auto 410px;
+}
+#agenda{
+  padding-top:40px;
+}
 @media all and (min-width: 600px) and (max-width:1023px){
     
 header, section, footer{
@@ -978,18 +1011,26 @@ video{
   margin: 50px auto;
   transform:translateX(10%);
 }
+.ima{
+  height: auto;
+}
 #imagen1{
    
     margin-left:200px;
     
   }
-
+.imb{
+  clear:left;
+}
   #imagen2{
     
     clear:left;
     margin-left:200px;
-    margin-top:100px;
+    margin-top:120px;
     
+  }
+  .imc{
+    clear:left;
   }
   #imagen3{
     
@@ -998,6 +1039,9 @@ video{
     margin-top:100px;
     
     
+  }
+  .imd{
+    clear:left;
   }
   #imagen4{
     
@@ -1029,12 +1073,12 @@ video{
   }
    #nota2{
     position:absolute;
-    margin-top:520px;
+    margin-top:320px;
     margin-left:230px;
   }
    #nota3{
     position:absolute;
-    margin-top:820px;
+    margin-top:300px;
     margin-left:230px;
   }
    #nota4{
@@ -1229,6 +1273,9 @@ video{
 .lienzo2{
   margin:0
 }
+#guardar{
+  margin-left:220px;
+}
 
 
 
@@ -1417,21 +1464,28 @@ video{
 #imagen1{
     
     float:none;
-    margin-left:auto;
+    margin-left:55px;
     margin-right: auto;
-   
+    
   }
+  
   #imagen2{
     float:none;
-    margin:100px auto;
+    margin:100px auto auto 55px;
+  }
+  .ima{
+    height: auto;
+  }
+  .imb{
+    height: auto;
   }
   #imagen3{
     float:none;
-    margin:100px auto;
+    margin:100px auto auto 55px;
   }
   #imagen4{
     float:none;
-    margin:100px auto;
+    margin:60px auto auto 55px;
   }
   #imagen5{
     float:none;
@@ -1466,7 +1520,7 @@ video{
     height: auto;
     float:none;
     position: absolute;
-    top:1370px;
+    top:1380px;
     margin:0;
   }
    #nota4{
@@ -1474,7 +1528,7 @@ video{
     height: auto;
     float:none;
     position: absolute;
-    top:1670px;
+    top:1690px;
     margin:0;
   }
    #nota5{
@@ -1729,7 +1783,31 @@ video{
   margin-left:40px;
   font-size:larger;
 }
+#guardar{
+  margin-left:100px
+}
+#agenda{
+  height:700px;
 
+}
+.cajaAgenda{
+  padding-top:40px;
+}
+#modulo{
+ 
+  width: 200px;
+}
+#datoAgenda{
+  
+  width: 200px;
+}
+#importancia{
 
+ width:207px;
+}
+#fecha{
+
+  width:202px;
+}
 
 }/*fin formato celular*/

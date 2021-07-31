@@ -14,7 +14,7 @@
         <nav id="botonera">
             <ul class="nav1">
                 <li class="lista1"><a href="index.html">Inicio</a></li>
-                <li class="lista1"><a href="">Capacitaciones</a></li>
+                <li class="lista1"><a href="capacitaciones.html">Capacitaciones</a></li>
                 <li class="lista1"><a href="contacto.html">Contacto</a></li>
                 <li class="lista1"><a href="login.html">Login</a></li>
             </ul>
@@ -29,10 +29,33 @@
         <div >
             <h2 class="capacitacion"></h2>
         </div>
-        <div class=""></div>
+       
            
        </div>
+       <div class="cajaAgenda">
+        <form>
+          
+          <input id="modulo"type="number" name="" placeholder="Ingrese el numero del módulo de cursada" min="1" max="4">
+          <textarea id="datoAgenda"  placeholder="Ingrese la nota a agendar">  </textarea>
+          
+            <select id="importancia"name="select">
+              <option value1='value1' selected>Muy Urgente</option>
+              <option value2='value2'>Urgente</option>
+              <option value3='value3'>Poco Urgente</option>
+            </select>
+            <input id='fecha'type="date" >
+            <input type="button" id="guardar" value="Guardar">
+            <input type="button" id="borrar" value="Eliminar">
+            
+          
+        </form>
+      </div>
+      <div id="agenda"></div>
    </section>
+   
+   
+   
+    
      <footer>
       <nav id="contacto">
           <ul class="nav3">
@@ -43,6 +66,8 @@
           </ul>
       </nav> 
      <div id="imagen"></div></footer>
-     <script type="text/javascript" src="js/java.js"></script>     
+     <script src="js/java.js"></script>
+     <script src="js/save.js"></script>
+    
 </body>
 </html>

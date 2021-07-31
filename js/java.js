@@ -1,4 +1,5 @@
 
+
 var nombre= prompt('Ingresa tu nombre');
 var pepe=document.querySelector(".nombre");
 pepe.innerHTML="Buenos Días "+ nombre + ",";
@@ -8,14 +9,14 @@ pepe.style.marginTop="0";
 var capacitacion=confirm('Desea comenzar el curso de electricidad y automatización?');
 if (capacitacion==true) {
 	var capacitacion1= document.querySelector(".capacitacion");
-	capacitacion1.innerHTML="La capacitación de electricidad y automatización comenzará en agosto del 2021, los días de cursada son....";
+	capacitacion1.innerHTML=" Bienvenido al curso de electricidad y automatización. Esta es una agenda virtual para que puedas incorporar recordatorios para los módulos en los que estas cursando";
 	capacitacion1.style.textAlign="center";
 }
 else{
 	var capacitacion2=confirm('Desea comenzar el curso de Batería?');
 	if (capacitacion2==true){
 		var capacitacion_2=document.querySelector(".capacitacion")
-		capacitacion_2.innerHTML="la capacitación de batería comenzará en agosto del 2021, los días de cursada son...."
+		capacitacion_2.innerHTML="Bienvenido al curso de Batería. Esta es una agenda virtual para que puedas incorporar recordatorios para los módulos en los que estas cursando"
 		capacitacion_2.style.textAlign="center";
 	}
 }

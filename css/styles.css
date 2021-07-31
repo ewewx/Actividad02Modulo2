@@ -1,6 +1,8 @@
    
   
   
+  
+  
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 header, section, footer{
     width:960px;
@@ -850,6 +852,9 @@ header, section, footer{
     header{
       height:450px;
     }
+    .indexSection{
+      height:1000px;
+    }
     #logo{
       width:150px;
       height:150px;
@@ -1275,6 +1280,9 @@ video{
 }
 #guardar{
   margin-left:220px;
+}
+.circulo{
+  cx:370px;
 }
 
 
@@ -1809,5 +1817,50 @@ video{
 
   width:202px;
 }
+.circulo{
+  cx:150px;
+}
+@keyframes circulo{
+  0%{
+    transform: translate(0px,0);
+  }
+  25%{
+    transform:translate(50px,0);
+  }
+  50%{
+    transform: translate(0px,0)
+
+  }
+  75%{
+    transform: translate(-50px,0)
+  }
+ 
+  100%{
+    transform:translate(0px,0)
+  }
+}
+.rayo{
+  cx:0px;
+}
+@keyframes rayo{
+  0%{
+    transform: translate(-250px,0);
+  }
+  25%{
+    transform:translate(-200px,0);
+  }
+  50%{
+    transform: translate(-250px,0)
+
+  }
+  75%{
+    transform: translate(-300px,0)
+  }
+ 
+  100%{
+    transform:translate(-250px,0)
+  }
+}
+
 
 }/*fin formato celular*/
